@@ -445,7 +445,7 @@ sup {
   padding-right: 6rem;
 }
 .contact .heading {
-  color: rgb(240, 5, 138);
+  color: rgba(234, 236, 239, 0.932);
 }
 .contact .row .form-container input,
 textarea {
@@ -457,7 +457,7 @@ textarea {
   padding: 0 1rem;
   text-transform: lowercase;
   margin: 1rem 0;
-  color: rgb(240, 5, 138);
+  color: #000;
   font-size: 1.7rem;
   transition: 0.2s linear;
 }
@@ -470,16 +470,16 @@ textarea {
   padding: 0 1rem;
   text-transform: lowercase;
   margin: 1rem 0;
-  color: rgb(240, 5, 138);
+  color: rgba(234, 236, 238, 0.932);
   font-size: 1.7rem;
   transition: 0.2s linear;
 }
 .contact .row .form-container input:focus,
 textarea:focus {
-  border: 0.2rem solid rgb(240, 5, 138);
+  border: 0.2rem solid rgba(10, 115, 236, 0.932);
 }
 .contact .row .form-container button:focus {
-  border: 0.2rem solid rgb(240, 5, 138);
+  border: 0.2rem solid rgba(10, 115, 236, 0.932);
 }
 .contact .row .form-container textarea {
   height: 20rem;
@@ -491,8 +491,8 @@ textarea:focus {
 .contact .row .form-container button {
   display: block;
   width: 17rem;
-  background: rgb(240, 5, 138);
-  color: #fff;
+  background: rgba(234, 236, 238, 0.932);
+  color: #000;
   cursor: pointer;
   font-size: 2rem;
   transition: 0.2s;
@@ -500,8 +500,8 @@ textarea:focus {
 }
 .contact .row .form-container button:hover {
   background: none;
-  color: rgb(240, 5, 138);
-  border: 0.2rem solid rgb(240, 5, 138);
+  color: rgba(234, 236, 238, 0.932);
+  border: 0.2rem solid #000;
 }
 .container {
   display: flex;
@@ -511,7 +511,7 @@ textarea:focus {
 }
 
 .contact-info {
-  border: 1px solid rgb(240, 5, 138);
+  border: 1px solid rgba(10, 115, 236, 0.932);
   padding: 5rem;
   width: 30rem;
   background: #f9f9f9;
